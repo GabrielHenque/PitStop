@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgb(29, 29, 29);
+}
+
+:root{
+    --fonte-principal: "Poppins", sans-serif;
+    --fonte-secundaria: ;
+
+    --cor-fonte-principal: #fff;
+    --cor-fonte-secundaria: ;
+    --cor-fonte-terciaria: ;
+
+    --peso-fonte-negrito: 700;
+    --peso-fonte-leve: 500;
+    --peso-fonte-normal: 600;
+
+    
+}
+
+body {
+    max-width: 600px;
+    color: var(--cor-fonte-principal);
+}
+
+header {
+    display: grid;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2.188rem 1.25rem;
+    align-items: center;
+    /* min-height: 30vh; */
+
+}
+
+#periudo {
+    text-align: center;
+    margin-top: 2.5rem;
+    
+}
+
+#botao, button {
+    display: grid;
+    gap: 1.25rem;
+    padding: 2.188rem 1.25rem;
+    color: var(--cor-fonte-principal);
+    border-radius: 5.5rem;
+    margin-top: 1rem;
+}
+
+img {
+    width: 100%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
